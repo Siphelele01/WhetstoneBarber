@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gallery — Whetstone Barber Co.</title>
+<meta name="description" content="Browse real work from Whetstone Barber Co. across kids, men's and women's cuts, colour and styling.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="preloader" aria-hidden="true">
+  <svg class="preloader-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="4" y="18" width="26" height="4" rx="2" fill="#F6F1E6"/>
+    <rect x="26" y="10" width="4" height="20" rx="2" fill="#9C6B3E"/>
+    <circle cx="34" cy="20" r="4" stroke="#9C6B3E" stroke-width="2"/>
+  </svg>
+  <span class="preloader-word">Whetstone</span>
+</div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <svg class="brand-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="4" y="18" width="26" height="4" rx="2" fill="#F6F1E6"/>
+        <rect x="26" y="10" width="4" height="20" rx="2" fill="#9C6B3E"/>
+        <circle cx="34" cy="20" r="4" stroke="#9C6B3E" stroke-width="2"/>
+      </svg>
+      <span class="brand-name">Whet<span>stone</span></span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html" aria-current="page">Gallery</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="btn btn-book">Book Now</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero page-heading" style="min-height:240px;background-image:url('https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=1920&auto=format&fit=crop');">
+  <div class="wrap" style="grid-template-columns:1fr;padding-bottom:50px;">
+    <div class="hero-copy" style="padding-bottom:0;max-width:640px;">
+      <p class="hero-eyebrow">Gallery</p>
+      <h1 style="max-width:none;font-size:clamp(2rem,4vw,2.8rem);">Work we're proud to show.</h1>
+      <p>A look at real cuts, colour and styling from the chairs — for kids, men and women.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:56px;">
+  <div class="wrap">
+
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All work</button>
+      <button class="filter-btn" data-filter="men">Men</button>
+      <button class="filter-btn" data-filter="women">Women</button>
+      <button class="filter-btn" data-filter="kids">Kids</button>
+    </div>
+
+    <div class="catalog-grid reveal-stagger reveal">
+
+      <div class="catalog-item reveal-child" data-category="men">
+        <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=700&auto=format&fit=crop" alt="Sharp skin fade finished with a straight line-up">
+        <div class="catalog-item-body">
+          <span class="catalog-tag">Men</span>
+          <h3>Skin fade & line-up</h3>
+          <p>Signature Haircut / Skin Fade</p>
+        </div>
+      </div>
+
+      <div class="catalog-item reveal-child" data-category="men">
+        <img src="https://images.unsplash.com/photo-1634480257305-7f4ca3582e6a?q=80&w=700&auto=format&fit=crop" alt="Barber giving a client a fresh classic haircut">
+        <div class="catalog-item-body">
+          <span class="catalog-tag">Men</span>
+          <h3>Classic barbershop cut</h3>
+          <p>Signature Haircut</p>
+        </div>
+      </div>
+
+      <div class="catalog-item reveal-child" data-category="men">
+        <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=700&auto=format&fit=crop" alt="Straight razor hot towel shave in progress">
+        <div class="catalog-item-body">
+          <span class="catalog-tag">Men</span>
+          <h3>Hot towel shave</h3>
+          <p>Hot Towel Shave</p>
+        </div>
+      </div>
+
+      <div class="catalog-item reveal-child" data-category="men">
+        <img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?q=80&w=700&auto=format&fit=crop" alt="Well-shaped beard trim with sharp edges">
+        <div class="catalog-item-body">
+          <span class="catalog-tag">Men</span>
+          <h3>Beard shape & edge-up</h3>
+          <p>Beard Trim & Shape</p>
+        </div>
+      </div>
+
+      <div class="catalog-item reveal-child" data-category="men">
+        <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?q=80&w=700&auto=format&fit=crop" alt="Client relaxing in the barber chair before a cut">
+        <div class="catalog-item-body">
+          <span class="catalog-tag">Men</span>
+          <h3>The Whetstone Package</h3>
+          <p>Cut, beard, shave & scalp massage</p>
+        </div>
+      </div>
+
+      <div class="catalog-item reveal-child" data-category="women">
+        <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?q=80&w=700&auto=format&fit=crop" alt="Fresh haircut with a smooth blow-dry finish">
+        <div class="catalog-item-body">
+          <span class="catalog-tag">Women</span>
+          <h3>Cut & blowout</h3>
+          <p>Women's Haircut / Wash & Blowout</p>
+        </div>
+      </div>
+
+      <div class="catalog-item reveal-child" data-category="women">
+        <img src="https://images.unsplash.com/photo-1634480258143-ffb5e6df0029?q=80&w=700&auto=format&fit=crop" alt="Precision haircut being styled in the mirror">
+        <div class="catalog-item-body">
+          <span class="catalog-tag">Women</span>
+          <h3>Precision cut & style</h3>
+          <p>Women's Haircut</p>
+        </div>
+      </div>
+
+      <div class="catalog-item reveal-child" data-category="women">
+        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=700&auto=format&fit=crop" alt="Hand-painted balayage colour result">
+        <div class="catalog-item-body">
+          <span class="catalog-tag">Women</span>
+          <h3>Balayage</h3>
+          <p>Full Colour / Balayage</p>
+        </div>
+      </div>
+
+      <div class="catalog-item reveal-child" data-category="women">
+        <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=700&auto=format&fit=crop" alt="Root touch-up colour result on dark hair">
+        <div class="catalog-item-body">
+          <span class="catalog-tag">Women</span>
+          <h3>Root touch-up</h3>
+          <p>Root Touch-Up Colour</p>
+        </div>
+      </div>
+
+      <div class="catalog-item reveal-child" data-category="women">
+        <img src="https://images.unsplash.com/photo-1739825353871-2b9c6716142a?q=80&w=700&auto=format&fit=crop" alt="Natural curls styled and defined">
+        <div class="catalog-item-body">
+          <span class="catalog-tag">Women</span>
+          <h3>Natural curls, defined</h3>
+          <p>Women's Haircut / Curl Styling</p>
+        </div>
+      </div>
+
+      <div class="catalog-item reveal-child" data-category="kids">
+        <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?q=80&w=700&auto=format&fit=crop" alt="Young child getting a first haircut">
+        <div class="catalog-item-body">
+          <span class="catalog-tag">Kids</span>
+          <h3>First cuts, patient hands</h3>
+          <p>Kids Cut (12 & under)</p>
+        </div>
+      </div>
+
+      <div class="catalog-item reveal-child" data-category="kids">
+        <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=700&auto=format&fit=crop" alt="Young boy with a neat skin fade">
+        <div class="catalog-item-body">
+          <span class="catalog-tag">Kids</span>
+          <h3>Kids fade</h3>
+          <p>Kids Fade</p>
+        </div>
+      </div>
+
+      <div class="catalog-item reveal-child" data-category="kids">
+        <img src="https://images.unsplash.com/photo-1521490878864-a50e9fcb5718?q=80&w=700&auto=format&fit=crop" alt="Young boy getting a gentle, patient haircut">
+        <div class="catalog-item-body">
+          <span class="catalog-tag">Kids</span>
+          <h3>Gentle first fades</h3>
+          <p>Kids Cut / Kids Fade</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="cta-band section reveal">
+  <div class="wrap">
+    <h2>Like what you see?</h2>
+    <a href="contact.html" class="btn btn-book btn-large">Book your appointment</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <a href="index.html" class="brand" style="margin-bottom:14px;">
+        <svg class="brand-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="4" y="18" width="26" height="4" rx="2" fill="#F6F1E6"/>
+          <rect x="26" y="10" width="4" height="20" rx="2" fill="#9C6B3E"/>
+          <circle cx="34" cy="20" r="4" stroke="#9C6B3E" stroke-width="2"/>
+        </svg>
+        <span class="brand-name">Whet<span>stone</span></span>
+      </a>
+      <p>142 Bree Street, Cape Town, 8001. Cuts, colour and styling for men, women and kids.</p>
+      <div class="social-row">
+        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">FB</a>
+        <a href="https://wa.me/27215550142" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
+      </div>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services & pricing</a></li>
+        <li><a href="about.html">About the shop</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Book now</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Hours</h4>
+      <p>Mon – Fri: 09:00 – 19:00<br>Saturday: 08:00 – 16:00<br>Sunday: Closed</p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p>021 555 0142<br>book@whetstonebarber.co.za</p>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 Whetstone Barber Co. All rights reserved.</span>
+    <a href="terms.html">Terms & Conditions</a>
+  </div>
+</footer>
+
+<button class="back-to-top" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"/><path d="M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="js/main.js"></script>
+</body>
+</html>
