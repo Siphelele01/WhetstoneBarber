@@ -6,6 +6,7 @@
 <title>About — Whetstone Barber Co.</title>
 <meta name="description" content="The story behind Whetstone Barber Co. and the barbers on the chairs in Cape Town.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
@@ -24,10 +25,27 @@
   <div class="wrap">
     <a href="index.html" class="brand">
       <svg class="brand-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="4" y="18" width="26" height="4" rx="2" fill="#F6F1E6"/>
-        <rect x="26" y="10" width="4" height="20" rx="2" fill="#9C6B3E"/>
-        <circle cx="34" cy="20" r="4" stroke="#9C6B3E" stroke-width="2"/>
-      </svg>
+    <!-- Badge base -->
+    <circle cx="20" cy="20" r="18" fill="#2A1E14"/>
+    <circle cx="20" cy="20" r="18" stroke="#9C6B3E" stroke-width="1.2"/>
+    <circle cx="20" cy="20" r="14.5" stroke="#9C6B3E" stroke-width="0.5" opacity="0.6"/>
+    <!-- Clock-style tick marks -->
+    <line x1="20" y1="4.5" x2="20" y2="3" stroke="#F6F1E6" stroke-width="1"/>
+    <line x1="30.96" y1="9.04" x2="32.02" y2="7.98" stroke="#F6F1E6" stroke-width="1"/>
+    <line x1="35.5" y1="20" x2="37" y2="20" stroke="#F6F1E6" stroke-width="1"/>
+    <line x1="30.96" y1="30.96" x2="32.02" y2="32.02" stroke="#F6F1E6" stroke-width="1"/>
+    <line x1="20" y1="35.5" x2="20" y2="37" stroke="#F6F1E6" stroke-width="1"/>
+    <line x1="9.04" y1="30.96" x2="7.98" y2="32.02" stroke="#F6F1E6" stroke-width="1"/>
+    <line x1="4.5" y1="20" x2="3" y2="20" stroke="#F6F1E6" stroke-width="1"/>
+    <line x1="9.04" y1="9.04" x2="7.98" y2="7.98" stroke="#F6F1E6" stroke-width="1"/>
+    <!-- Straight razor, open -->
+    <path d="M9 23 L27 8 L32 11 L13 26 Z" fill="#F6F1E6"/>
+    <path d="M27 8 L32 11 L30 13 L25.5 10.3 Z" fill="#9C6B3E"/>
+    <circle cx="28.5" cy="9.5" r="1.6" fill="#F6F1E6"/>
+    <!-- Laurel flourish -->
+    <path d="M14 31 Q11 30 11 27 Q13 29 14 31 Z" fill="#9C6B3E" opacity="0.85"/>
+    <path d="M26 31 Q29 30 29 27 Q27 29 26 31 Z" fill="#9C6B3E" opacity="0.85"/>
+  </svg>
       <span class="brand-name">Whet<span>stone</span></span>
     </a>
     <nav class="main-nav" id="main-nav">
@@ -73,17 +91,17 @@
     </div>
     <div class="people-grid reveal-stagger reveal">
       <div class="person reveal-child">
-        <img src="https://images.unsplash.com/photo-1600180758890-6b94519a8ba6?q=80&w=600&auto=format&fit=crop" alt="Portrait of barber Sipho Ndlovu">
+        <img src="https://images.unsplash.com/photo-1618077360395-f3068be8e001?q=80&w=600&auto=format&fit=crop" alt="Portrait of barber Sipho Ndlovu">
         <div class="person-body">
-          <h3>Sipho Ndlovu</h3>
+          <h3>Marco Alves</h3>
           <p class="person-role">Master Barber · 12 years</p>
           <p>Trained in Johannesburg before moving to Cape Town in 2017. The one to book if you want a sharp, precise skin fade.</p>
         </div>
       </div>
       <div class="person reveal-child">
-        <img src="https://images.unsplash.com/photo-1618077360395-f3068be8e001?q=80&w=600&auto=format&fit=crop" alt="Portrait of barber Marco Alves">
+        <img src="images/barber.jpeg" alt="Portrait of barber Marco Alves">
         <div class="person-body">
-          <h3>Marco Alves</h3>
+          <h3>Sipho Ndlovu</h3>
           <p class="person-role">Senior Barber · 8 years</p>
           <p>Classic cuts and straight razor shaves are his focus — old-school technique, unhurried pace.</p>
         </div>
@@ -112,17 +130,34 @@
     <div>
       <a href="index.html" class="brand" style="margin-bottom:14px;">
         <svg class="brand-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="4" y="18" width="26" height="4" rx="2" fill="#F6F1E6"/>
-          <rect x="26" y="10" width="4" height="20" rx="2" fill="#9C6B3E"/>
-          <circle cx="34" cy="20" r="4" stroke="#9C6B3E" stroke-width="2"/>
-        </svg>
+    <!-- Badge base -->
+    <circle cx="20" cy="20" r="18" fill="#2A1E14"/>
+    <circle cx="20" cy="20" r="18" stroke="#9C6B3E" stroke-width="1.2"/>
+    <circle cx="20" cy="20" r="14.5" stroke="#9C6B3E" stroke-width="0.5" opacity="0.6"/>
+    <!-- Clock-style tick marks -->
+    <line x1="20" y1="4.5" x2="20" y2="3" stroke="#F6F1E6" stroke-width="1"/>
+    <line x1="30.96" y1="9.04" x2="32.02" y2="7.98" stroke="#F6F1E6" stroke-width="1"/>
+    <line x1="35.5" y1="20" x2="37" y2="20" stroke="#F6F1E6" stroke-width="1"/>
+    <line x1="30.96" y1="30.96" x2="32.02" y2="32.02" stroke="#F6F1E6" stroke-width="1"/>
+    <line x1="20" y1="35.5" x2="20" y2="37" stroke="#F6F1E6" stroke-width="1"/>
+    <line x1="9.04" y1="30.96" x2="7.98" y2="32.02" stroke="#F6F1E6" stroke-width="1"/>
+    <line x1="4.5" y1="20" x2="3" y2="20" stroke="#F6F1E6" stroke-width="1"/>
+    <line x1="9.04" y1="9.04" x2="7.98" y2="7.98" stroke="#F6F1E6" stroke-width="1"/>
+    <!-- Straight razor, open -->
+    <path d="M9 23 L27 8 L32 11 L13 26 Z" fill="#F6F1E6"/>
+    <path d="M27 8 L32 11 L30 13 L25.5 10.3 Z" fill="#9C6B3E"/>
+    <circle cx="28.5" cy="9.5" r="1.6" fill="#F6F1E6"/>
+    <!-- Laurel flourish -->
+    <path d="M14 31 Q11 30 11 27 Q13 29 14 31 Z" fill="#9C6B3E" opacity="0.85"/>
+    <path d="M26 31 Q29 30 29 27 Q27 29 26 31 Z" fill="#9C6B3E" opacity="0.85"/>
+  </svg>
         <span class="brand-name">Whet<span>stone</span></span>
       </a>
       <p>142 Bree Street, Cape Town, 8001. Cuts, colour and styling for men, women and kids.</p>
       <div class="social-row">
-        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
-        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">FB</a>
-        <a href="https://wa.me/27215550142" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
+       <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+<a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+<a href="https://wa.me/27215550142" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
       </div>
     </div>
     <div>
@@ -140,9 +175,9 @@
       <p>Mon – Fri: 09:00 – 19:00<br>Saturday: 08:00 – 16:00<br>Sunday: Closed</p>
     </div>
     <div>
-      <h4>Contact</h4>
-      <p>021 555 0142<br>book@whetstonebarber.co.za</p>
-    </div>
+  <h4>Contact</h4>
+  <p><i class="fas fa-phone"></i> <a href="tel:+27603102737">060 310 2737</a><br><i class="fas fa-envelope"></i> <a href="mailto:book@whetstonebarber.co.za">book@whetstonebarber.co.za</a></p>
+</div>
   </div>
   <div class="wrap footer-bottom">
     <span>© 2026 Whetstone Barber Co. All rights reserved.</span>
